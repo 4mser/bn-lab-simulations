@@ -10,6 +10,7 @@ se puede importar por separado.
 [Leer el artículo](https://www.bnsolutions.cl/research/bn-lab-simulations) ·
 [Experimentos](docs/EXPERIMENTS.md) ·
 [Resultados de validación](validation/RESULTS.md) ·
+[B&N Lectures](https://github.com/4mser/bn-lectures) ·
 [Read in English](README.md)
 
 ![La galería de BN Lab Simulations](docs/assets/gallery.png)
@@ -132,6 +133,20 @@ correr. Salida completa: [validation/RESULTS.md](validation/RESULTS.md).
 Cuarenta, cada uno con el modelo, cómo está implementado, qué mirar, por qué
 importa y fuentes primarias, en inglés y español:
 **[docs/EXPERIMENTS.md](docs/EXPERIMENTS.md)**.
+
+## Parte de B&N Lectures
+
+BN Lab Simulations es el laboratorio interactivo de
+[B&N Lectures](https://github.com/4mser/bn-lectures), las clases animadas de
+ciencia y técnica de B&N Solutions. De aquí sale el motor de simulación de las
+clases, y cada clase enlaza a este repositorio.
+
+| repositorio | |
+|---|---|
+| [bn-lectures](https://github.com/4mser/bn-lectures) | el punto de partida: el proyecto, el equipo y los enlaces a todo |
+| [bn-lectures-clases](https://github.com/4mser/bn-lectures-clases) | las clases, partiendo por Electricidad y Magnetismo |
+| [bn-lectures-teaser](https://github.com/4mser/bn-lectures-teaser) | el teaser de B&N Lectures |
+| [bn-lectures-biblioteca](https://github.com/4mser/bn-lectures-biblioteca) | el catálogo de las 192 simulaciones y efectos de los videos |
 
 ## Citar
 

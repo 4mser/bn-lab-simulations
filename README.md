@@ -9,6 +9,7 @@ Every figure integrates its own equations in the browser. Zero dependencies,
 [Read the article](https://www.bnsolutions.cl/research/bn-lab-simulations) ·
 [Experiments](docs/EXPERIMENTS.md) ·
 [Validation results](validation/RESULTS.md) ·
+[B&N Lectures](https://github.com/4mser/bn-lectures) ·
 [Leer en español](README.es.md)
 
 ![The BN Lab Simulations gallery](docs/assets/gallery.png)
@@ -213,6 +214,20 @@ npm test
 npm run validate
 node scripts/docs.mjs
 ```
+
+## Part of B&N Lectures
+
+BN Lab Simulations is the interactive lab of
+[B&N Lectures](https://github.com/4mser/bn-lectures), B&N Solutions' animated
+lessons in science and engineering. The lessons' simulation engine comes from
+here, and every lesson links back to this repository.
+
+| repository | |
+|---|---|
+| [bn-lectures](https://github.com/4mser/bn-lectures) | the starting point: the project, the team and links to everything |
+| [bn-lectures-clases](https://github.com/4mser/bn-lectures-clases) | the lessons, starting with Electricity and Magnetism |
+| [bn-lectures-teaser](https://github.com/4mser/bn-lectures-teaser) | the B&N Lectures teaser |
+| [bn-lectures-biblioteca](https://github.com/4mser/bn-lectures-biblioteca) | the catalog of the 192 simulations and effects in the videos |
 
 ## Citing
 
