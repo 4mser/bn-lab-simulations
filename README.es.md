@@ -13,7 +13,7 @@ se puede importar por separado.
 [B&N Lectures](https://github.com/4mser/bn-lectures) ·
 [Read in English](README.md)
 
-![La galería de BN Lab Simulations](docs/assets/gallery.png)
+![Seis simulaciones de BN Lab en vivo: un fluido incompresible, el atractor de Lorenz, un agujero de gusano, la doble rendija, el espaciotiempo curvo y reacción-difusión](docs/assets/gifs/hero.gif)
 
 ## Por qué
 
@@ -129,6 +129,31 @@ correr. Salida completa: [validation/RESULTS.md](validation/RESULTS.md).
 | Modelo de Ising | ⟨\|m\|⟩ a T = 2,0, red de 64×64 | 0,9113 | 0,9113 (Onsager–Yang) |
 
 ## Experimentos
+
+Doce de ellos, grabados directamente del navegador con los parámetros por defecto (el fluido, revuelto con el cursor):
+
+<table>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/lorenz.gif" width="100%" alt="Atractor de Lorenz"><br><sub><code>lorenz</code> · Atractor de Lorenz</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/doubleslit.gif" width="100%" alt="Doble rendija"><br><sub><code>doubleslit</code> · Doble rendija</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/fluid.gif" width="100%" alt="Fluido incompresible"><br><sub><code>fluid</code> · Fluido incompresible</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/grayscott.gif" width="100%" alt="Reacción y difusión"><br><sub><code>grayscott</code> · Reacción y difusión</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/wormhole.gif" width="100%" alt="Agujero de gusano"><br><sub><code>wormhole</code> · Agujero de gusano</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/spacetime.gif" width="100%" alt="Espaciotiempo curvo"><br><sub><code>spacetime</code> · Espaciotiempo curvo</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/boids.gif" width="100%" alt="Bandada"><br><sub><code>boids</code> · Bandada</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/pendulum.gif" width="100%" alt="Péndulo doble"><br><sub><code>pendulum</code> · Péndulo doble</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/ising.gif" width="100%" alt="Modelo de Ising"><br><sub><code>ising</code> · Modelo de Ising</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/radiation.gif" width="100%" alt="Por qué existe la luz"><br><sub><code>radiation</code> · Por qué existe la luz</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/shortcut.gif" width="100%" alt="Mirar a través"><br><sub><code>shortcut</code> · Mirar a través</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/chladni.gif" width="100%" alt="Figuras de Chladni"><br><sub><code>chladni</code> · Figuras de Chladni</sub></td>
+  </tr>
+</table>
 
 Cuarenta, cada uno con el modelo, cómo está implementado, qué mirar, por qué
 importa y fuentes primarias, en inglés y español:

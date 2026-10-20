@@ -12,7 +12,7 @@ Every figure integrates its own equations in the browser. Zero dependencies,
 [B&N Lectures](https://github.com/4mser/bn-lectures) ·
 [Leer en español](README.es.md)
 
-![The BN Lab Simulations gallery](docs/assets/gallery.png)
+![Six BN Lab simulations running live: an incompressible fluid, the Lorenz attractor, a wormhole, the double slit, curved spacetime and reaction-diffusion](docs/assets/gifs/hero.gif)
 
 ## Why
 
@@ -183,6 +183,31 @@ and maximum parameters in both themes, and fails on any exception or
 non-finite coordinate.
 
 ## Experiments
+
+Twelve of them, recorded straight from the browser with default parameters (the fluid, stirred with the cursor):
+
+<table>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/lorenz.gif" width="100%" alt="Lorenz attractor"><br><sub><code>lorenz</code> · Lorenz attractor</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/doubleslit.gif" width="100%" alt="Double slit"><br><sub><code>doubleslit</code> · Double slit</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/fluid.gif" width="100%" alt="Incompressible fluid"><br><sub><code>fluid</code> · Incompressible fluid</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/grayscott.gif" width="100%" alt="Reaction and diffusion"><br><sub><code>grayscott</code> · Reaction and diffusion</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/wormhole.gif" width="100%" alt="Wormhole"><br><sub><code>wormhole</code> · Wormhole</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/spacetime.gif" width="100%" alt="Curved spacetime"><br><sub><code>spacetime</code> · Curved spacetime</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/boids.gif" width="100%" alt="Flocking"><br><sub><code>boids</code> · Flocking</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/pendulum.gif" width="100%" alt="Double pendulum"><br><sub><code>pendulum</code> · Double pendulum</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/ising.gif" width="100%" alt="Ising model"><br><sub><code>ising</code> · Ising model</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><img src="docs/assets/gifs/radiation.gif" width="100%" alt="Why light exists"><br><sub><code>radiation</code> · Why light exists</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/shortcut.gif" width="100%" alt="Looking through"><br><sub><code>shortcut</code> · Looking through</sub></td>
+    <td width="33%" align="center"><img src="docs/assets/gifs/chladni.gif" width="100%" alt="Chladni figures"><br><sub><code>chladni</code> · Chladni figures</sub></td>
+  </tr>
+</table>
 
 Forty of them, each with the model, how it is implemented, what to look at,
 why it matters and primary references, in English and Spanish:
